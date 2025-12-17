@@ -1,0 +1,142 @@
+<!DOCTYPE html><html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PowerPlus Combo • Easy Order Flow</title>
+  <style>
+    :root{--primary:#e63946;--dark:#0b1020;--card:#11162a;--accent:#ffb703;--muted:#9aa3b2}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto;background:linear-gradient(180deg,#0b1020,#0f1733);color:#fff}
+    a{text-decoration:none;color:inherit}
+    .container{max-width:1100px;margin:auto;padding:14px}
+    .btn{padding:14px 18px;border-radius:16px;border:none;font-weight:900;cursor:pointer}
+    .btn.primary{background:var(--primary);color:#fff}
+    .btn.accent{background:var(--accent);color:#000}
+    .btn.outline{background:transparent;border:2px solid #2b335a}header{position:sticky;top:0;z-index:9;background:#0b1020;border-bottom:1px solid #1f2752}
+header .row{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.logo{display:flex;align-items:center;gap:10px}
+.mark{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,#e63946,#ffb703);display:grid;place-items:center;font-weight:900}
+
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:center;margin-top:14px}
+h1{font-size:clamp(26px,4vw,42px);line-height:1.15;margin:0}
+p{color:var(--muted);font-size:16px}
+.badges{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.badge{background:#1b2146;border:1px solid #2b335a;border-radius:999px;padding:8px 12px;font-weight:900}
+
+.card{background:linear-gradient(180deg,#11162a,#0f1530);border:2px solid #2b335a;border-radius:20px;padding:16px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.grid1{display:grid;grid-template-columns:1fr;gap:14px}
+.price{font-size:32px;font-weight:900}
+.strike{text-decoration:line-through;color:#9aa3b2}
+.stars{color:#ffb703}
+
+form input,form select,form textarea{width:100%;padding:14px;border-radius:14px;border:2px solid #2b335a;background:#0b1020;color:#fff;font-size:16px}
+form label{font-size:14px;color:#c7cff7;font-weight:800}
+.row2{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.step{border:2px dashed #2b335a;border-radius:16px;padding:14px;font-weight:900;text-align:center}
+
+.imgs{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.imgs img{width:100%;border-radius:18px;border:2px solid #2b335a}
+
+footer{margin:28px 0;color:#9aa3b2;font-size:13px}
+.sticky{position:fixed;bottom:10px;left:10px;right:10px;display:flex;gap:10px;z-index:10}
+
+@media(max-width:900px){.hero{grid-template-columns:1fr}.grid,.grid2,.steps,.imgs{grid-template-columns:1fr}}
+
+  </style>
+</head>
+<body>
+<header>
+  <div class="container row">
+    <div class="logo"><div class="mark">PP</div><strong>PowerPlus Combo</strong></div>
+    <div style="display:flex;gap:8px">
+      <a class="btn outline" href="tel:9263974397">Call</a>
+      <a class="btn primary" href="https://wa.me/919263974397" target="_blank">WhatsApp</a>
+    </div>
+  </div>
+</header><div class="container">
+  <section class="hero">
+    <div>
+      <h1>इतना आसान Order कि बच्चा भी कर ले</h1>
+      <p>बस 4 step follow karein → Payment karein → WhatsApp par order confirm.</p>
+      <div class="badges">
+        <span class="badge">✔ Easy Order</span><span class="badge">✔ Fast Reply</span><span class="badge">✔ Discreet</span>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <a href="#order" class="btn accent">👇 Order Karna Hai</a>
+        <a href="#how" class="btn outline">Kaise Order Karein</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgs">
+        <img src="https://i.ibb.co/3yH71BL5/image-search-1765965423622.jpg" alt="Product Image 1">
+        <img src="https://i.ibb.co/8D8KSjQG/image-search-1765965403850.jpg" alt="Product Image 2">
+        <img src="https://i.ibb.co/0pKWWNcB/MIRTUNJAY-KUMAR-11.jpg" alt="UPI Scanner">
+      </div>
+    </div>
+  </section>  <section class="grid" style="margin-top:18px">
+    <div class="card"><h3>15 Din Plan</h3><div class="price">₹699</div><p>Beginner Plan</p><a href="#order" class="btn primary">Select</a></div>
+    <div class="card" style="outline:3px solid #ffb703"><h3>1 Mahina Plan</h3><div class="price">₹999 <span class="strike">₹1299</span></div><p>Most Popular</p><a href="#order" class="btn accent">Best Choice</a></div>
+    <div class="card"><h3>Help</h3><p>Order ke baad WhatsApp support milega.</p><a class="btn outline" href="https://wa.me/919263974397" target="_blank">Chat Now</a></div>
+  </section>  <section id="how" class="card" style="margin-top:18px">
+    <h3>🟢 Order Karne Ka Sabse Aasan Tarika</h3>
+    <div class="steps">
+      <div class="step">1️⃣ Plan Select Karein</div>
+      <div class="step">2️⃣ Apna Naam & Number Bharein</div>
+      <div class="step">3️⃣ UPI se Payment Karein</div>
+      <div class="step">4️⃣ WhatsApp par Confirm Karein</div>
+    </div>
+  </section>  <section class="grid2" style="margin-top:18px">
+    <div class="card">
+      <h3>💳 Payment Details</h3>
+      <p><b>UPI ID:</b> 9263974397@ptyes</p>
+      <p>Payment karne ke baad <b>UPI Ref / UTR</b> copy kar lein.</p>
+      <div class="imgs" style="grid-template-columns:1fr"><div class="card" style="text-align:center"><img src="https://i.ibb.co/0pKWWNcB/MIRTUNJAY-KUMAR-11.jpg" alt="UPI QR Scanner" style="width:100%;border-radius:18px;border:2px solid #2b335a"></div></div>
+    </div>
+    <div class="card">
+      <h3>⭐ Customer Reviews</h3>
+      <p><span class="stars">★★★★★</span> "Order karna bahut easy tha"</p>
+      <p><span class="stars">★★★★★</span> "WhatsApp reply fast"</p>
+    </div>
+  </section>  <section id="order" class="grid1" style="margin-top:18px">
+    <div class="card">
+      <h3>📝 Order Details Bharein</h3>
+      <form id="orderForm">
+        <label>Product Select</label>
+        <select name="plan"><option>15 Din • ₹699</option><option>1 Mahina • ₹999</option></select>
+        <div class="row2">
+          <div><label>Naam</label><input name="name" required></div>
+          <div><label>Mobile Number</label><input name="mobile" required></div>
+        </div>
+        <label>Delivery Address</label>
+        <textarea name="address" required></textarea>
+        <div class="row2">
+          <div><label>Payment UTR</label><input name="utr" placeholder="Payment ke baad likhein"></div>
+          <div><label>Contact Mode</label><select name="contact"><option>WhatsApp</option><option>Call</option></select></div>
+        </div>
+        <button class="btn primary" type="submit">✅ Payment Ho Gaya • WhatsApp Confirm</button>
+      </form>
+      <p style="margin-top:10px;color:#c7cff7">👉 Payment ke baad hi order confirm hoga.</p>
+    </div>
+  </section>  <footer>
+    <p>Call/WhatsApp: <b>9263974397</b> • Email: iammirtunjay@gmail.com</p>
+    <p>Wellness category. Results vary. Koi medical claim nahi.</p>
+  </footer>
+</div><div class="sticky">
+  <a class="btn accent" href="#order">Order Now</a>
+  <a class="btn primary" href="https://wa.me/919263974397" target="_blank">WhatsApp Order</a>
+</div><script>
+  const f=document.getElementById('orderForm');
+  f.addEventListener('submit',e=>{
+    e.preventDefault();
+    const d=new FormData(f);
+    let msg='🟢 New Order%0A';
+    for(const [k,v] of d.entries()) msg+=k+': '+encodeURIComponent(v)+'%0A';
+    msg+='\nUPI ID: 9263974397@ptyes';
+    window.open('https://wa.me/919263974397?text='+msg,'_blank');
+  });
+</script></body>
+</html>
